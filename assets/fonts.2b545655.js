@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill.c7c6310f.js";function o(){i(),window.onresize=i}function i(){let n=document.documentElement.clientWidth/document.documentElement.clientHeight,e=document.body,t="0%";n>=.75&&(t=`${100*(Math.sqrt(n-.75)/10)}%`),e.style.marginLeft=t,e.style.marginRight=t}window.onload=o;
